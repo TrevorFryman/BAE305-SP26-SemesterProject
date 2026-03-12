@@ -1,0 +1,23 @@
+const int triggerPin = 7; 
+
+void setup() {
+  pinMode(triggerPin, OUTPUT);
+  digitalWrite(triggerPin, LOW);
+  
+  // Initial Trigger: Turn the LED ON immediately when the Arduino starts
+  triggerRelay();
+}
+
+void loop() {
+  // Example: Every 30 seconds, "Refresh" the timer to turn the LED back on
+  // (Assuming your DROK OP time is set to 10 seconds)
+  
+  delay(10000); 
+  triggerRelay();
+}
+
+void triggerRelay() {
+  digitalWrite(triggerPin, HIGH); 
+  delay(100); // 100ms pulse is all the DROK needs to start its countdown
+  digitalWrite(triggerPin, LOW);
+}
