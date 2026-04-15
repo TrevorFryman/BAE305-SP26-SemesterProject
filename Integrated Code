@@ -49,7 +49,7 @@ void loop() {
   
   // Read manual heat setting from potentiometer
   int potValue = analogRead(potPin);
-  int targetAngle = map(potValue, 0, 1023, 0, 270);
+  int targetAngle = map(potValue, 0, 1023, 0, 180);
 
   // Check if User starts the Drok Timer
   if (digitalRead(buttonPin) == LOW) {
