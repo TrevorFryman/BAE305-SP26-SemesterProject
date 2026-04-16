@@ -8,7 +8,6 @@
    * Trevor Fryman
      
 # Summary
-Clear and concise description of the project and results
 Unattended cooking is the leading cause of house fires in the US. Roughly 70% of people admit to leaving the kitchen unattended while cooking. There is also a risk of harm to children, energy waste, accidental gas leaks, or electrical overheating. ​
 
 The purpose of this project was to create a system with automatic detection and shut-off to reduce preventable hazards and unnecessary energy consumption. We decided that to achieve this, our system should detect whether a pan is on the stovetop and turn it off when it isn't, and also be capable of turning the stove off after a set timer runs out. To better allow the user to understand the system, a green LED will be on when a pan is detected, and a red LED will blink and stay on when the system has turned the stove off. 
