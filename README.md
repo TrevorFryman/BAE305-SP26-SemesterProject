@@ -19,6 +19,11 @@ Project Video Description:
 # Design Description
 Engineering Drawings, code, and assembly instructions are complete and correct
 
+<p align="center">
+<img width="500" height="655" alt="image" src="https://github.com/user-attachments/assets/1b114d6f-ee6c-4344-8506-00b20bf07833" /> <br>
+<em>Figure 1. Circuit schematic.<em>
+<p>
+
 # Testing Description
 All test equipment (model numbers) and procedures are fully described
 
