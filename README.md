@@ -20,12 +20,12 @@ Project Video Description:
 Engineering Drawings, code, and assembly instructions are complete and correct
 
 <p align="center">
-<img width="500" height="655" alt="image" src="https://github.com/user-attachments/assets/1b114d6f-ee6c-4344-8506-00b20bf07833" /> <br>
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/1b114d6f-ee6c-4344-8506-00b20bf07833" /> <br>
 <em>Figure 1. Circuit schematic.<em>
 <p>
 
 <p align="center">
-<img width="500" height="655" alt="Screenshot 2026-04-16 at 4 32 32 PM" src="https://github.com/user-attachments/assets/bc0cc32b-d25f-4fbf-b44f-cc24b090dd3f" /> <br>
+<img width="800" height="600" alt="Screenshot 2026-04-16 at 4 32 32 PM" src="https://github.com/user-attachments/assets/bc0cc32b-d25f-4fbf-b44f-cc24b090dd3f" /> <br>
 <em>Figure 2. Wiring Diagram <em>
 <p></p>
 
