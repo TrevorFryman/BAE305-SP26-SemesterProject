@@ -29,8 +29,17 @@ Engineering Drawings, code, and assembly instructions are complete and correct
 <em>Figure 2. Wiring Diagram <em>
 <p></p>
 
+``` cpp
+
+```
 # Testing Description
 All test equipment (model numbers) and procedures are fully described
+Test equipment:
+- Our system
+- A pot or pan
+- A phone timer
+  
+A series of tests were conducted to verify that our system works properly. To start off, we tested the timer mechanism by putting our pot in place and turning the knob on the front of the control board to turn the burner on. Once this was done, we set and started our timer. We also started a phone timer to see if our system timer is accurate. Once a series of ten tests are finished, we moved on to the next set of tests. For these tests, we verified that the ultrasonic sensor worked properly. In order to do this, we set a pot on the burner for 10 seconds and then removed it and started a timer on a phone to verify that the burner would not turn off for 90 seconds. After ten tests were done, we did our final test. This test was the verify that the ultrasonic sensor would de activate the 90 second burner turn off count down when a pot or pan is placed back on the burner after being removed. For this test, we set the pot/ pan on the burner for 10 seconds and then removed it for 10. Once the 10 seconds was up, we replaced the pot on the burner while keeping our original timer going from when the pot was initially removed. Once the timer hits 90 seconds, we observed whether or not the stove top was turned off. We tested our design a total of 10 times for each scenario. 
 
 # Design Decision Discussion
 Design decisions are described completely. This is an excellent reference design for this type of system. 
