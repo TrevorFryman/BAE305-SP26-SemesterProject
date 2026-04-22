@@ -12,8 +12,8 @@ const int panLed = 13;         // Green (Pan detected)
 const int warningLed = 12;     // Red (Timer/Safety alert)
 
 // 2. CONSTANTS & VARIABLES
-const int panThreshold = 10;         // Distance in cm to detect pan
-const unsigned long safetyTimeout = 90000; // 90 second safety cutoff
+const int panThreshold = 15;         // Distance in cm to detect pan
+const unsigned long safetyTimeout = 15000; // 90 second safety cutoff
 Servo knobServo;
 unsigned long lastPanDetectedTime = 0;
 bool isTimerActive = false;
@@ -98,7 +98,7 @@ long getDistance() {
 
 // HELPER: Turn off heat and blink warning
 void shutdownSequence() {
-  knobServo.write(0);      // Force knob to OFF
+  knobServo.write(270);      // Force knob to OFF
   digitalWrite(panLed, LOW); 
   
   // 1. Blink the warning LED 10 times
@@ -111,7 +111,7 @@ void shutdownSequence() {
 
   // 2. HARD LOCKOUT: Wait here until the user resets the knob to zero
   // This prevents the hotplate from jumping back to life unexpectedly.
-  while (analogRead(potPin) > 10) { 
+  while (analogRead(potPin) < 900) { 
     // Keep the red LED on solid to show it's waiting for a reset
     digitalWrite(warningLed, HIGH); 
     
@@ -124,4 +124,3 @@ void shutdownSequence() {
   digitalWrite(warningLed, LOW); // Turn off the warning light
   lastPanDetectedTime = millis(); // Reset the safety clock for a fresh start
 }
-
