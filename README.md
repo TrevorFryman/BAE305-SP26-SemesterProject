@@ -12,6 +12,14 @@ Unattended cooking is the leading cause of house fires in the US. Roughly 70% of
 
 The purpose of this project was to create a system with automatic detection and shut-off to reduce preventable hazards and unnecessary energy consumption. We decided that to achieve this, our system should detect whether a pan is on the stovetop and turn it off when it isn't, and also be capable of turning the stove off after a set timer runs out. To better allow the user to understand the system, a green LED will be on when a pan is detected, and a red LED will blink and stay on when the system has turned the stove off. 
 
+The design objectives that were set for this project are as follows;
+- The end user may set a timer to turn off the stove top burner after a period.
+- The product can successfully turn off a stove top burner if no motion is detected for a certain period.
+- The product can successfully turn off a stove top burner from any position its knob is set to.
+- The product displays a visual indication of pot/ pan being detected.
+- The product displays a visual indication of hot plate turning off.
+
+
 This project allowed us to practice and demonstrate a variety of engineering skills, such as wiring, coding, scrum, and team collaboration. 
 
 Project Video Description: 
@@ -165,13 +173,18 @@ Test equipment:
 - A pot or pan
 - A phone timer
   
-A series of tests were conducted to verify that our system works properly. To start off, we tested the timer mechanism by putting our pot in place and turning the knob on the front of the control board to turn the burner on. Once this was done, we set and started our timer. We also started a phone timer to see if our system timer is accurate. Once a series of ten tests are finished, we moved on to the next set of tests. For these tests, we verified that the ultrasonic sensor worked properly. In order to do this, we set a pot on the burner for 10 seconds and then removed it and started a timer on a phone to verify that the burner would not turn off for 90 seconds. After ten tests were done, we did our final test. This test was the verify that the ultrasonic sensor would de activate the 90 second burner turn off count down when a pot or pan is placed back on the burner after being removed. For this test, we set the pot/ pan on the burner for 10 seconds and then removed it for 10. Once the 10 seconds was up, we replaced the pot on the burner while keeping our original timer going from when the pot was initially removed. Once the timer hits 90 seconds, we observed whether or not the stove top was turned off. We tested our design a total of 10 times for each scenario. 
+A series of tests were conducted to verify that our system works properly. To start off, we tested the timer mechanism by putting our pot in place and turning the knob on the front of the control board to turn the burner on. Once this was done, we set and started our timer. We also started a phone timer to see if our system timer is accurate. Once a series of ten tests are finished, we moved on to the next set of tests. For these tests, we verified that the ultrasonic sensor worked properly. In order to do this, we set a pot on the burner for 10 seconds and then removed it and started a timer on a phone to verify that the burner would not turn off for 90 seconds. 
+
 
 # Design Decision Discussion
 Design decisions are described completely. This is an excellent reference design for this type of system. 
 
 # Test Results Discussion 
-It is clear what the system can do, cannot do, and where it works best
+Both tests were important for the correct function of our system. For the timer, we realized we needed to make the timer longer than the original 2.45 seconds we had it set for. We decided to change it to 15 seconds. For the ultrasonic sensor, we also realized that 90 seconds is a long wait for demonstartion purposes, so we shortened that time to 15 seconds as well. We also ran into some issues with our code, wiring, and the battery pack providing a low voltage. Once all of these bugs were worked out, we had a successfuly working system. 
 
 # Testing Results
 Proper test results were conducted, and the results were clearly documented
+<img width="1420" height="486" alt="image" src="https://github.com/user-attachments/assets/a8a017c7-155a-44ed-b893-b589fe421ea3" />
+
+_Figure _: Test documentation with results and description of what was changed. 
+
