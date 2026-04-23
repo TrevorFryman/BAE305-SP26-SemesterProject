@@ -165,7 +165,9 @@ void shutdownSequence() {
   lastPanDetectedTime = millis(); // Reset the safety clock for a fresh start
 }
 ```
-The code above is our fully integrated code for all of our system components. This code runs our timer, moves the servo according to the rotation of the potentiometer, and it activates the ultrasonic sensor detection.
+<p align="center">
+<em>The code above is our fully integrated code for all of our system components. This code runs our timer, moves the servo according to the rotation of the potentiometer, and it activates the ultrasonic sensor detection.<em>
+<p>
 
 # Testing Description
 All test equipment (model numbers) and procedures are fully described
