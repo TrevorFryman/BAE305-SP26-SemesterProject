@@ -16,8 +16,8 @@ The design objectives that were set for this project are as follows;
 - The end user may set a timer to turn off the stove top burner after a period.
 - The product can successfully turn off a stove top burner if no motion is detected for a certain period.
 - The product can successfully turn off a stove top burner from any position its knob is set to.
-- The product displays a visual indication of pot/ pan being detected.
-- The product displays a visual indication of hot plate turning off.
+- The product displays a visual indication of a pot/ pan being detected.
+- The product displays a visual indication of the hot plate turning off.
 
 
 This project allowed us to practice and demonstrate a variety of engineering skills, such as wiring, coding, scrum, and team collaboration. 
@@ -176,14 +176,24 @@ Test equipment:
 - A pot or pan
 - A phone timer
   
-A series of tests were conducted to verify that our system works properly. To start off, we tested the timer mechanism by putting our pot in place and turning the knob on the front of the control board to turn the burner on. Once this was done, we set and started our timer. We also started a phone timer to see if our system timer is accurate. Once a series of ten tests are finished, we moved on to the next set of tests. For these tests, we verified that the ultrasonic sensor worked properly. In order to do this, we set a pot on the burner for 10 seconds and then removed it and started a timer on a phone to verify that the burner would not turn off for 90 seconds. 
+A series of tests was conducted to verify that our system works properly. To start off, we tested the timer mechanism by putting our pot in place and turning the knob on the front of the control board to turn the burner on. Once this was done, we set and started our timer. We also started a phone timer to see if our system timer is accurate. Once a series of ten tests is finished, we move on to the next set of tests. For these tests, we verified that the ultrasonic sensor worked properly. In order to do this, we set a pot on the burner for 10 seconds and then removed it and started a timer on a phone to verify that the burner would not turn off for 90 seconds. 
 
 
 # Design Decision Discussion
-Design decisions are described completely. This is an excellent reference design for this type of system. 
+
+We chose our design decisions based on the goals of reliability, user ease, and safety.
+
+**Capabilities:**  We chose to focus on a single-burner to test and display the concept of our system. The system has four capabilities: manual heat control, a user-set timer, pan detection, and an automatic safety cutoff. The safety lockout feature (requiring the knob to be physically returned to zero) was a feature we added to prevent the stove from unexpectedly turning back on after a safety event and require the user to acknowledge the triggering of the safety system.
+
+**Sensors:** We selected the ultrasonic sensor for the pan detection. We chose this over a weight sensor or an infrared sensor because it is non-contact, inexpensive, and unaffected by the heat or weight of the stovetop. The 10cm threshold was determined through testing to reliably detect a pan directly on the burner while ignoring objects farther away. We added a button for the user to start the timer to make it simple and intentional. 
+
+**Displays:** We used a simple green and red LED system for user feedback. This decision was made to keep the interface simple and intuitive. A green light indicates that the system sees the pan and is active. A blinking red light is used as a warning signal, telling the user that the burner has been turned off for a safety reason.
+
+**Wiring & Integration:** A single Arduino was enough for our system. The key design challenge was integrating all of the pieces of our system. We chose an external timer module rather than coding the timer to increase the ease for the end user, and add the visual indication of the timer. 
+
 
 # Test Results Discussion 
-Both tests were important for the correct function of our system. For the timer, we realized we needed to make the timer longer than the original 2.45 seconds we had it set for. We decided to change it to 15 seconds. For the ultrasonic sensor, we also realized that 90 seconds is a long wait for demonstartion purposes, so we shortened that time to 15 seconds as well. We also ran into some issues with our code, wiring, and the battery pack providing a low voltage. Once all of these bugs were worked out, we had a successfuly working system. 
+Both tests were important for the correct function of our system. For the timer, we realized we needed to make the timer longer than the original 2.45 seconds we had it set for. We decided to change it to 15 seconds. For the ultrasonic sensor, we also realized that 90 seconds is a long wait for demonstration purposes, so we shortened that time to 15 seconds as well. We also ran into some issues with our code, wiring, and the battery pack providing a low voltage. Once all of these bugs were worked out, we had a successfully working system. 
 
 # Testing Results
 Proper test results were conducted, and the results were clearly documented
