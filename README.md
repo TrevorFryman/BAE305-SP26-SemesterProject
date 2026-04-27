@@ -199,5 +199,5 @@ Both tests were important for the correct function of our system. For the timer,
 Proper test results were conducted, and the results were clearly documented
 <img width="1420" height="486" alt="image" src="https://github.com/user-attachments/assets/a8a017c7-155a-44ed-b893-b589fe421ea3" />
 
-_Figure _: Test documentation with results and description of what was changed. 
+_Figure 3: Test documentation with results and description of what was changed._ 
 
