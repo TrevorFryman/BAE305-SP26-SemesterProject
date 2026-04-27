@@ -34,7 +34,7 @@ Our video demonstrates the function of our product, "The Stove Turner Offer 3000
 
 <p align="center">
 <img width="800" height="600" alt="Screenshot 2026-04-16 at 4 32 32 PM" src="https://github.com/user-attachments/assets/bc0cc32b-d25f-4fbf-b44f-cc24b090dd3f" /> <br>
-<em>Figure 2. Wiring Diagram </em>
+<em>Figure 2. Wiring Diagram. </em>
 <p>
 
 ``` cpp
