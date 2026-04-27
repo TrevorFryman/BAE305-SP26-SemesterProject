@@ -29,12 +29,12 @@ Our video demonstrates the function of our product, "The Stove Turner Offer 3000
 
 <p align="center">
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/1b114d6f-ee6c-4344-8506-00b20bf07833" /> <br>
-<em>Figure 1. Circuit schematic.<em>
+<em>Figure 1. Circuit schematic.</em>
 <p>
 
 <p align="center">
 <img width="800" height="600" alt="Screenshot 2026-04-16 at 4 32 32 PM" src="https://github.com/user-attachments/assets/bc0cc32b-d25f-4fbf-b44f-cc24b090dd3f" /> <br>
-<em>Figure 2. Wiring Diagram <em>
+<em>Figure 2. Wiring Diagram </em>
 <p>
 
 ``` cpp
@@ -166,7 +166,7 @@ void shutdownSequence() {
 }
 ```
 <p align="center">
-<em>The code above is our fully integrated code for all of our system components. This code runs our timer, moves the servo according to the rotation of the potentiometer, and it activates the ultrasonic sensor detection.<em>
+<em>The code above is our fully integrated code for all of our system components. This code runs our timer, moves the servo according to the rotation of the potentiometer, and it activates the ultrasonic sensor detection.</em>
 <p>
 
 # Testing Description
@@ -198,7 +198,7 @@ Both tests were important for the correct function of our system. For the timer,
 # Testing Results
 Proper test results were conducted, and the results were clearly documented.
 <p align="center">
-<img width="500" height="486" alt="image" src="https://github.com/user-attachments/assets/a8a017c7-155a-44ed-b893-b589fe421ea3" /><br>
-<em>_Figure 3: Test documentation with results and description of what was changed._ <em>
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/a8a017c7-155a-44ed-b893-b589fe421ea3" /><br>
+<em>Figure 3: Test documentation with results and description of what was changed. </em>
 <p>
 
