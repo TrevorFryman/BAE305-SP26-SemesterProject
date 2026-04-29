@@ -22,7 +22,14 @@ The design objectives that were set for this project are as follows;
 
 This project allowed us to practice and demonstrate a variety of engineering skills, such as wiring, coding, scrum, and team collaboration. 
 
-Our video demonstrates the function of our product, "The Stove Turner Offer 3000". Both scenarios are captured, one where the end user can set a timer, and the other where the end user can remove the pot and the stove automatically turns off. Both scenarios create a design that will prevent disaster events from happening when the stove is left un attended.  
+# Video 
+
+https://github.com/user-attachments/assets/73515b4c-5e0a-4226-8963-773cc51bb47d
+
+
+
+Our video demonstrates the function of our product, "The Stove Turner Offer 3000". Both scenarios are captured, one where the end user can set a timer, and the other where the end user can remove the pot and the stove automatically turns off. Both scenarios create a design that will prevent disaster events from happening when the stove is left un attended. 
+
 
 # Design Description
 
