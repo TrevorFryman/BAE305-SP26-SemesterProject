@@ -44,6 +44,21 @@ Our video demonstrates the function of our product, "The Stove Turner Offer 3000
 <em>Figure 2. Wiring Diagram. </em>
 <p>
 
+<p align= "center">
+<img width="612" height="792" alt="image" src="https://github.com/user-attachments/assets/6e3e8bb1-c3ec-43c4-8839-58bc077e3cbd" /> <br>
+<em>Figure 3. Gear attached to the servo motor drawing file. </em>
+<p>
+
+ <p align= "center">
+ <img width="612" height="790" alt="image" src="https://github.com/user-attachments/assets/5a521802-47b8-4937-89d1-a9777add9a9d" /> <br>
+<em>Figure 4. Gear attached to the temp knob drawing file.</em>
+<p>
+
+<p align= "center">
+<img width="613" height="794" alt="image" src="https://github.com/user-attachments/assets/a88328f1-9ef6-423d-a4ff-4c04edde4821" /> <br>
+<em>Figure 5. Knob for the potentiometer drawing file. </em>
+<p>
+ 
 ``` cpp
 #include <Servo.h>
 
