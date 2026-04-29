@@ -218,7 +218,7 @@ We chose our design decisions based on the goals of reliability, user ease, and 
 Proper test results were conducted, and the results were clearly documented.
 <p align="center">
 <img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/a8a017c7-155a-44ed-b893-b589fe421ea3" /><br>
-<em>Figure 3: Test documentation with results and description of what was changed. </em>
+<em>Figure 6: Test documentation with results and description of what was changed. </em>
 <p>
 
 
