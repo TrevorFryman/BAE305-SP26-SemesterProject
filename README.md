@@ -199,13 +199,15 @@ We chose our design decisions based on the goals of reliability, user ease, and 
 **Wiring & Integration:** A single Arduino was enough for our system. The key design challenge was integrating all of the pieces of our system. We chose an external timer module rather than coding the timer to increase the ease for the end user, and add the visual indication of the timer. 
 
 
-# Test Results Discussion 
-Both tests were important for the correct function of our system. For the timer, we realized we needed to make the timer longer than the original 2.45 seconds we had it set for. We decided to change it to 15 seconds. For the ultrasonic sensor, we also realized that 90 seconds is a long wait for demonstration purposes, so we shortened that time to 15 seconds as well. We also ran into some issues with our code, wiring, and the battery pack providing a low voltage. Once all of these bugs were worked out, we had a successfully working system. 
-
 # Testing Results
 Proper test results were conducted, and the results were clearly documented.
 <p align="center">
 <img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/a8a017c7-155a-44ed-b893-b589fe421ea3" /><br>
 <em>Figure 3: Test documentation with results and description of what was changed. </em>
 <p>
+
+
+# Test Results Discussion 
+Both tests were important for the correct function of our system. For the timer, we realized we needed to make the timer longer than the original 2.45 seconds we had it set for. We decided to change it to 15 seconds. For the ultrasonic sensor, we also realized that 90 seconds is a long wait for demonstration purposes, so we shortened that time to 15 seconds as well. We also ran into some issues with our code, wiring, and the battery pack providing a low voltage. Once all of these bugs were worked out, we had a successfully working system. 
+
 
