@@ -58,6 +58,13 @@ Our video demonstrates the function of our product, "The Stove Turner Offer 3000
 <img width="613" height="794" alt="image" src="https://github.com/user-attachments/assets/a88328f1-9ef6-423d-a4ff-4c04edde4821" /> <br>
 <em>Figure 5. Knob for the potentiometer drawing file. </em>
 <p>
+
+<p align= "center">
+<img width="1078" height="694" alt="image" src="https://github.com/user-attachments/assets/c3a2fad8-ae1d-4413-8cbb-8a513d3c1aab" /> <br>
+<em>Figure 6. Stand attached to frontside of hot plate that will hold all of the components. </em>
+<p>
+
+
  
 ``` cpp
 #include <Servo.h>
@@ -191,14 +198,29 @@ void shutdownSequence() {
 <em>The code above is our fully integrated code for all of our system components. This code runs our timer, moves the servo according to the rotation of the potentiometer, and it activates the ultrasonic sensor detection.</em>
 <p>
 
+
 # Testing Description
-All test equipment (model numbers) and procedures are fully described
+
 Test equipment:
-- Our system
-- A pot or pan
-- A phone timer
-  
-A series of tests was conducted to verify that our system works properly. To start off, we tested the timer mechanism by putting our pot in place and turning the knob on the front of the control board to turn the burner on. Once this was done, we set and started our timer. We also started a phone timer to see if our system timer is accurate. Once a series of ten tests is finished, we move on to the next set of tests. For these tests, we verified that the ultrasonic sensor worked properly. In order to do this, we set a pot on the burner for 10 seconds and then removed it and started a timer on a phone to verify that the burner would not turn off for 90 seconds. 
+- Turner Offer 3000
+- Kettle
+- Timer
+
+The first component tested was the timer. The kettle was placed and the hot plate was turned on to max heat, then the timer was started by pressing its coordinating button. An external timer was set to compare the accuracy of the timer relay. A series of ten trials were conducted. The test results can be seen in the Testing Results section of the design file.
+
+The same structure of test was conducted to test the accuracy of the ultrasonic sensor and its internal timer integrated in the code. The kettle was placed on the hot plate, it was verified that it was being detected by the ultrasonic sensor, then removed. As the kettle was removed, an external timer was started and compared with the start of the servo.
+
+
+# Testing Results
+Proper test results were conducted, and the results were clearly documented.
+<p align="center">
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/a8a017c7-155a-44ed-b893-b589fe421ea3" /><br>
+<em>Figure 7: Test documentation with results and description of what was changed. </em>
+<p>
+
+
+# Test Results Discussion 
+Both tests were important for the correct function of our system. For the timer, we realized we needed to make the timer longer than the original 2.45 seconds we had it set for. We decided to change it to 15 seconds. For the ultrasonic sensor, we also realized that 90 seconds is a long wait for demonstration purposes, so we shortened that time to 15 seconds as well. We also ran into some issues with our code, wiring, and the battery pack providing a low voltage. Once all of these bugs were worked out, we had a successfully working system. 
 
 
 # Design Decision Discussion
@@ -212,17 +234,3 @@ We chose our design decisions based on the goals of reliability, user ease, and 
 **Displays:** We used a simple green and red LED system for user feedback. This decision was made to keep the interface simple and intuitive. A green light indicates that the system sees the pan and is active. A blinking red light is used as a warning signal, telling the user that the burner has been turned off for a safety reason.
 
 **Wiring & Integration:** A single Arduino was enough for our system. The key design challenge was integrating all of the pieces of our system. We chose an external timer module rather than coding the timer to increase the ease for the end user, and add the visual indication of the timer. 
-
-
-# Testing Results
-Proper test results were conducted, and the results were clearly documented.
-<p align="center">
-<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/a8a017c7-155a-44ed-b893-b589fe421ea3" /><br>
-<em>Figure 6: Test documentation with results and description of what was changed. </em>
-<p>
-
-
-# Test Results Discussion 
-Both tests were important for the correct function of our system. For the timer, we realized we needed to make the timer longer than the original 2.45 seconds we had it set for. We decided to change it to 15 seconds. For the ultrasonic sensor, we also realized that 90 seconds is a long wait for demonstration purposes, so we shortened that time to 15 seconds as well. We also ran into some issues with our code, wiring, and the battery pack providing a low voltage. Once all of these bugs were worked out, we had a successfully working system. 
-
-
