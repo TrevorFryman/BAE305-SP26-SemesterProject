@@ -60,8 +60,13 @@ The knob below is attached to the potentiometer that controls the servo motor wh
 <p>
 The stand was designed to allow a seamless user experience. The user will have the ability to see the timer, the indicator lights, and will have access to the knob to turn the stove on and off. Having this operation panel is essential for our system to properly function. The slit cut into the side allows for the servo to attact with the gear on the knob of the burner, allowing for it to be turned off and on mechanically. The timer is secured to the front of the stand with glue, the indicatior lights and knob both go through holes drilled into the stand, creating a functional and asthetic design.  
 <p align= "center">
-<img width="1078" height="694" alt="image" src="https://github.com/user-attachments/assets/c3a2fad8-ae1d-4413-8cbb-8a513d3c1aab" /> <br>
-<em>Figure 6. Stand attached to frontside of hot plate that will hold all of the components. </em>
+<img width="1220" height="789" alt="image" src="https://github.com/user-attachments/assets/286f57b1-3e13-4278-a486-bdfad691cb0d" /> <br>
+<em>Figure 6. Drawing of stand attached to frontside of hot plate that will hold all of the components. </em>
+<p>
+ 
+<p align= "center">
+<img width="1219" height="786" alt="image" src="https://github.com/user-attachments/assets/2bde13c1-36eb-4f72-87d9-49b33bb59782" /> <br>
+<em>Figure 7. Drawing of the full assembly. </em>
 <p>
 
 The code below is our fully integrated code for all of our system components. This code runs our timer, moves the servo according to the rotation of the potentiometer, and it activates the ultrasonic sensor detection.
@@ -214,7 +219,7 @@ The same structure of test was conducted to test the accuracy of the ultrasonic 
 Proper test results were conducted, and the results were clearly documented.
 <p align="center">
 <img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/a8a017c7-155a-44ed-b893-b589fe421ea3" /><br>
-<em>Figure 7: Test documentation with results and description of what was changed. </em>
+<em>Figure 8: Test documentation with results and description of what was changed. </em>
 <p>
 
 
