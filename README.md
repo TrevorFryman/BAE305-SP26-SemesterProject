@@ -64,7 +64,8 @@ The stand was designed to allow a seamless user experience. The user will have t
 <em>Figure 6. Stand attached to frontside of hot plate that will hold all of the components. </em>
 <p>
 
-Below is the fully integrated code used to make our product function. 
+The code below is our fully integrated code for all of our system components. This code runs our timer, moves the servo according to the rotation of the potentiometer, and it activates the ultrasonic sensor detection.
+ 
  
 ``` cpp
 #include <Servo.h>
@@ -194,9 +195,7 @@ void shutdownSequence() {
   lastPanDetectedTime = millis(); // Reset the safety clock for a fresh start
 }
 ```
-<p align="center">
-The code above is our fully integrated code for all of our system components. This code runs our timer, moves the servo according to the rotation of the potentiometer, and it activates the ultrasonic sensor detection.
-<p>
+
 
 
 # Testing Description
