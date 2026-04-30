@@ -43,7 +43,7 @@ Our video demonstrates the function of our product, "The Stove Turner Offer 3000
 <img width="800" height="600" alt="Screenshot 2026-04-16 at 4 32 32 PM" src="https://github.com/user-attachments/assets/bc0cc32b-d25f-4fbf-b44f-cc24b090dd3f" /> <br>
 <em>Figure 2. Wiring Diagram. </em>
 <p>
-
+Below are the two gears, one is attached to the servo motor, and the other is attached to the burner's knob. These gears are what translates the motion of the servo motor to the stove top turning on or off.
 <p align= "center">
 <img width="612" height="792" alt="image" src="https://github.com/user-attachments/assets/6e3e8bb1-c3ec-43c4-8839-58bc077e3cbd" /> <br>
 <em>Figure 3. Gear attached to the servo motor drawing file. </em>
@@ -53,18 +53,18 @@ Our video demonstrates the function of our product, "The Stove Turner Offer 3000
  <img width="612" height="790" alt="image" src="https://github.com/user-attachments/assets/5a521802-47b8-4937-89d1-a9777add9a9d" /> <br>
 <em>Figure 4. Gear attached to the temp knob drawing file.</em>
 <p>
-
+The knob below is attached to the potentiometer that controls the servo motor which translates into turning the burner on and off. This knob is essential to make the system more ergonomic, allowing the user to turn the potentiometer with ease.
 <p align= "center">
 <img width="613" height="794" alt="image" src="https://github.com/user-attachments/assets/a88328f1-9ef6-423d-a4ff-4c04edde4821" /> <br>
 <em>Figure 5. Knob for the potentiometer drawing file. </em>
 <p>
-
+The stand was designed to allow a seamless user experience. The user will have the ability to see the timer, the indicator lights, and will have access to the knob to turn the stove on and off. Having this operation panel is essential for our system to properly function. The slit cut into the side allows for the servo to attact with the gear on the knob of the burner, allowing for it to be turned off and on mechanically. The timer is secured to the front of the stand with glue, the indicatior lights and knob both go through holes drilled into the stand, creating a functional and asthetic design.  
 <p align= "center">
 <img width="1078" height="694" alt="image" src="https://github.com/user-attachments/assets/c3a2fad8-ae1d-4413-8cbb-8a513d3c1aab" /> <br>
 <em>Figure 6. Stand attached to frontside of hot plate that will hold all of the components. </em>
 <p>
 
-
+Below is the fully integrated code used to make our product function. 
  
 ``` cpp
 #include <Servo.h>
