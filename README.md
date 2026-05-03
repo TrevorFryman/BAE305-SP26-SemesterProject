@@ -33,6 +33,7 @@ Our video demonstrates the function of our product, "The Stove Turner Offer 3000
 
 # Design Description
 
+This system was designed to turn the stove off when left on. This was done through the use of a servo motor, an ultra sonic sensor, two LED's, a potentiometer, two 3D printed gears, and a 3D printed Knob.  In this section you will see a circuit schemating and wiring diagram of our system, the code that was used to run it, and the drawings from the 3D models created.
 
 <p align="center">
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/1b114d6f-ee6c-4344-8506-00b20bf07833" /> <br>
